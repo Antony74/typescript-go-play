@@ -4,7 +4,7 @@ TypeScript 7 has not been released at the time of writing.  The big change is th
 
 What's staying the same is the internals of how the compiler is structured - at least at the top level, probably deep inside too.  This makes sense - porting a complier is a big enough job without trying to change other things at the same time!  So I'll begin by pointing to some resources on TypeScript internals prior to TypeScript 7.
 
-* [TypeScript Compiler Internals - overview] - Basarat's guide
+* [TypeScript Compiler Internals - overview](https://basarat.gitbook.io/typescript/overview) - Basarat's guide
 * [How the TypeScript Compiler Compiles](git@github.com:Antony74/typescript-go-play.git) - a YouTube video by Orta Therox
 
 So the top-level structure, which are also compile phases, are the same:
